@@ -12,5 +12,8 @@
     "url": "node-js"
   },
   "author": "dulan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.22"
+  }
 }
