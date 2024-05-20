@@ -5,8 +5,9 @@ import inquirer from 'inquirer';
 import writeFile  from 'node:fs';
 import cardGen from './htmlcardGen.js';
 import join  from 'node:path';
-__dirname = fileURLToPath(import.meta.url);
-__filename = dirname(__dirname);
+__filename = fileURLToPath(import.meta.url);
+__dirname = path.dirname(__filename);
+console.log(__dirname);
 const studentInfo = [];
 (async()=> {
     let allcard = '';
